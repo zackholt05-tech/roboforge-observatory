@@ -50,6 +50,11 @@ are generated from the HDF5 metadata, and a test asserts they still match it.
   file is SHA-256-checked against the HF LFS oid recorded in the manifest.
 - Downloaded: Lift and Can, PH, `low_dim` and `raw` (`demo_v15`, which has states and model
   XML for later RGB/depth extraction). Total 170 MB.
+- Variant choice: **PH (proficient-human)**, because MASTER_SPEC prescribes it for the
+  core benchmark. It is the cleanest single-quality demo set (200 per task), which suits a
+  fair algorithm comparison. MH (multi-human) and MG (machine-generated) differ in data
+  quality and quantity; they belong only to an explicitly separate dataset-quality study
+  (spec §7.4).
 - Square PH: metadata recorded but not downloaded. **No pre-rendered `image` HDF5 exists**
   for v1.5 PH (registry link is `None`), so RGB must be regenerated from states
   (`dataset_states_to_obs.py`).
