@@ -1,5 +1,5 @@
 RoboForge Observatory: third-party licenses of the files served by this site.
-RoboForge itself is Apache-2.0 (https://github.com/zackholt05-tech/roboforge).
+RoboForge itself is Apache-2.0 (https://github.com/zackholt05-tech/roboforge-observatory).
 
 ==============================================================================
 robosuite 1.5.1 (MIT). The robot and object meshes in assets/ were extracted
