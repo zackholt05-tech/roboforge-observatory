@@ -3,7 +3,7 @@
 ## Environment
 ```bash
 # prerequisites: uv >= 0.11 (https://docs.astral.sh/uv/), git; macOS arm64 or Linux
-git clone https://github.com/zackholt05-tech/roboforge.git && cd roboforge
+git clone https://github.com/zackholt05-tech/roboforge-observatory.git && cd roboforge-observatory
 make setup            # == uv sync --frozen  -> .venv with Python 3.11 and exact pins from uv.lock
 ```
 Pinned core: mujoco 3.2.7 · robosuite v1.5.1 (`51cc017`) · robomimic `d309eae` ·

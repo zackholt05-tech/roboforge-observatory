@@ -1,11 +1,11 @@
 # RoboForge — Technical Specification
 
 This is the technical specification of RoboForge (version 2.0, prepared 2026-11-04; repository
-`github.com/zackholt05-tech/roboforge`; author Zackary Holt). It states requirements and does not
-itself report results. Older documents, code comments and evidence files cite it as "MASTER_SPEC
-§N"; section and item numbers are unchanged, so those citations resolve here (numbers that do not
-appear, such as 0.1, 0.3 and 12, are unused). "Session N" in this repository names project stage N
-(§10), whose evidence is under `logs/sessionN/` and `reports/sessionN/`.
+`github.com/zackholt05-tech/roboforge-observatory`; author Zackary Holt). It states requirements and
+does not itself report results. Older documents, code comments and evidence files cite it as
+"MASTER_SPEC §N"; section and item numbers are unchanged, so those citations resolve here (numbers
+that do not appear, such as 0.1, 0.3 and 12, are unused). "Session N" in this repository names
+project stage N (§10), whose evidence is under `logs/sessionN/` and `reports/sessionN/`.
 
 **Mission.** Train and compare imitation-learning policies that control an articulated robot arm in
 a real 3D physics simulation: a controlled comparison of deterministic/recurrent behavior cloning

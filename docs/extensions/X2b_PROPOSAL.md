@@ -1,7 +1,8 @@
 # X2-b proposal and the owner decisions it needs
 
 Written on 2026-11-12, after the X2-a headroom pilot (D-124; `reports/session15/x2/pilot/`) and
-before any X2-b training. Estimates are computed from the pilot's measured times.
+before any X2-b training. The decisions were taken in D-125 and the design was then fixed in
+`docs/extensions/X2_PREREGISTRATION.md`. Estimates are computed from the pilot's measured times.
 
 ## Owner decisions needed before any X2-b training
 1. **Go or stop.** The reading is headroom, by one family. Options: proceed with X2-b on Can

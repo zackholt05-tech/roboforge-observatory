@@ -118,7 +118,7 @@ export default function Methods() {
               license, whose text ships with the site in THIRD_PARTY_LICENSES.txt with the other bundled licenses.
               Full notices: THIRD_PARTY_NOTICES.md.</p>
             <p className="fine">Code, data manifests, frozen results and the report (paper/main.pdf, a local build, not peer
-              reviewed): <a href="https://github.com/zackholt05-tech/roboforge" rel="noreferrer">github.com/zackholt05-tech/roboforge</a>.</p>
+              reviewed): <a href="https://github.com/zackholt05-tech/roboforge-observatory" rel="noreferrer">github.com/zackholt05-tech/roboforge-observatory</a>.</p>
           </div>
           <ol className="refs">
             {REFS.map(([t, a, u]) => <li key={u}><a href={u} rel="noreferrer">{t}</a><span className="dim">{a}</span></li>)}

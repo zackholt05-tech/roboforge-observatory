@@ -57,7 +57,8 @@ def licenses_text(website: Path = WEBSITE) -> str:
     rs_version, rs_license = _robosuite_license()
     parts = [
         "RoboForge Observatory: third-party licenses of the files served by this site.",
-        "RoboForge itself is Apache-2.0 (https://github.com/zackholt05-tech/roboforge).",
+        "RoboForge itself is Apache-2.0 "
+        "(https://github.com/zackholt05-tech/roboforge-observatory).",
         "",
         "=" * 78,
         f"robosuite {rs_version} (MIT). The robot and object meshes in assets/ were extracted",

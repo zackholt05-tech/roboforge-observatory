@@ -23,10 +23,10 @@ reviewed). Every number in it is generated from the frozen result files.
 v1.0.0 (X1, X2, X3), every number generated from their hash-pinned result files (a local
 build, not peer reviewed). The v1.0.0 report and its numbers are unchanged.
 
-**[Open the RoboForge Observatory](https://zackholt05-tech.github.io/roboforge/)**: an
+**[Open the RoboForge Observatory](https://zackholt05-tech.github.io/roboforge-observatory/)**: an
 interactive 3D site that replays recorded evaluation episodes, shows the diffusion sampler's
 real denoising steps (replayed from recorded validation episodes) and presents the frozen
-findings (GitHub Pages; built from commit `57d8b7b` on `main`, after tag `v1.1.0`, every
+findings (GitHub Pages; built from `main` after tag `v1.1.0`, every
 served file checked against its `deploy.json` hash list, DECISIONS D-102). The site now also
 shows the three follow-up studies (X1 and X2 recorded episodes, X3 results) under their own
 labels.
@@ -152,7 +152,7 @@ Docker for the canonical evaluation container. Full commands and what each prove
 [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md).
 
 ```bash
-git clone https://github.com/zackholt05-tech/roboforge.git && cd roboforge
+git clone https://github.com/zackholt05-tech/roboforge-observatory.git && cd roboforge-observatory
 make setup          # uv sync --frozen: Python 3.11 and the exact pins of uv.lock
 make test           # full suite; dataset tests skip with a reason until the data exist
 make download       # official Lift + Can PH datasets from the pinned revision, SHA-256 checked
